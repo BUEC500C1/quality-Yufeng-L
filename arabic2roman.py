@@ -18,6 +18,4 @@ def toRoman(n):
 	else:
 	    return -1
 if __name__ == "__main__":
-	testset = [3,6,18,101,-1,0,3999,1340]
-	for ele in testset:
-		print(toRoman(ele))
+	pass
