@@ -21,7 +21,6 @@ def toRoman(n):
 	return res
 
 if __name__ == "__main__":
-	
-	testset = [-1,0,5,18,29,1350,3999,4000]
+	testset = [5,18,29,1350,3999]
 	for element in testset:
 		print(toRoman(element))
